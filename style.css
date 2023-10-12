@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600;700&display=swap');
+
+.content{
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2937;
+  color: white;
+  height: 500px;
+  width: 1706px;
+  margin: -10px;
+  margin-right: 15px;
+  font-weight: extra-bold;
+  font-family: 'AR One Sans', sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  max-width: 300px;
+}
+.another-content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 400px;
+
+}
+
+.container-foo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img{
+  margin-left: 150px;
+  margin-top: -20px;
+  width: 200px;
+  height: 150px;
+  
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  
+  gap: 50px;
+  margin-right: 230px;
+  margin-top: 30px;
+  list-style-type: none
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+.footer{
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'AR One Sans', sans-serif;
+  color: #1F2937;
+}
+.foo{
+  display: flex;
+  margin-top: 40px;
+  gap: -15px;
+  margin-left: 300px;
+}
+.foo-content{
+  color: #595959;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  font-size: small;
+  
+}
+.coco{
+  display: flex;
+  flex-direction: column;
+  background-color:#cccccc;
+  padding: 50px;
+  width: 1606px;
+  justify-content: center;
+  font-size: xx-large;
+  font-style: italic;
+  font-family: 'AR One Sans', sans-serif;
+  margin-left: -10px;
+}
+.eyit{
+  background-color: #3882F6;
+  color: white;
+  border-radius: 4px;
+  margin: 100px;
+  margin-left: 300px;
+  width: 800px;
+  height: 100px;
+  padding: 10px;
+  padding-left: 80px;
+  font-family: 'AR One Sans', sans-serif;
+}
+.eyit-content{
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+.finish{
+  display: flex;
+  background-color: #1F2937;
+  color: white;
+  justify-content: center;
+  height: 80px;
+  font-family: 'AR One Sans', sans-serif;
+}
